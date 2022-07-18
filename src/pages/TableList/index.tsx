@@ -18,7 +18,7 @@ import UpdateForm from './components/UpdateForm';
 
 /**
  * @en-US Add node
- * @zh-CN 添加节点
+ * @en-US 添加节点
  * @param fields
  */
 const handleAdd = async (fields: API.RuleListItem) => {
@@ -37,7 +37,7 @@ const handleAdd = async (fields: API.RuleListItem) => {
 
 /**
  * @en-US Update node
- * @zh-CN 更新节点
+ * @en-US 更新节点
  *
  * @param fields
  */
@@ -62,7 +62,7 @@ const handleUpdate = async (fields: FormValueType) => {
 
 /**
  *  Delete node
- * @zh-CN 删除节点
+ * @en-US 删除节点
  *
  * @param selectedRows
  */
@@ -86,12 +86,12 @@ const handleRemove = async (selectedRows: API.RuleListItem[]) => {
 const TableList: React.FC = () => {
   /**
    * @en-US Pop-up window of new window
-   * @zh-CN 新建窗口的弹窗
+   * @en-US 新建窗口的弹窗
    *  */
   const [createModalVisible, handleModalVisible] = useState<boolean>(false);
   /**
    * @en-US The pop-up window of the distribution update window
-   * @zh-CN 分布更新窗口的弹窗
+   * @en-US 分布更新窗口的弹窗
    * */
   const [updateModalVisible, handleUpdateModalVisible] = useState<boolean>(false);
 
@@ -103,7 +103,7 @@ const TableList: React.FC = () => {
 
   /**
    * @en-US International configuration
-   * @zh-CN 国际化配置
+   * @en-US 国际化配置
    * */
   const intl = useIntl();
 
