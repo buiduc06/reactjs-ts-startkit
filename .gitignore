@@ -38,3 +38,8 @@ screenshot
 .eslintcache
 
 build
+
+#env
+.env
+.env.production
+.env.staging
