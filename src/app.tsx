@@ -54,9 +54,9 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
   return {
     rightContentRender: () => <RightContent />,
     disableContentMargin: false,
-    waterMarkProps: {
-      content: 'React StartKit',
-    },
+    // waterMarkProps: {
+    //   content: 'React StartKit',
+    // },
     footerRender: () => <Footer />,
     onPageChange: () => {
       const { location } = history;

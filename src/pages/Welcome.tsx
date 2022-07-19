@@ -33,14 +33,13 @@ const Welcome: React.FC = () => {
         />
         <Typography.Text strong>
           <a
-            href="https://procomponents.ant.design/components/table"
+            href="https://procomponents.ant.design/en-US/components/table?current=1&pageSize=5"
             rel="noopener noreferrer"
             target="__blank"
           >
             <FormattedMessage id="pages.welcome.link" defaultMessage="Welcome" />
           </a>
         </Typography.Text>
-        <CodePreview>yarn add @ant-design/pro-components</CodePreview>
       </Card>
     </PageContainer>
   );

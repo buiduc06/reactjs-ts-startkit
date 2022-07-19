@@ -12,7 +12,7 @@ const Settings: LayoutSettings & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'Reactjs-startkit',
+  title: 'ReactJS StartKit',
   pwa: false,
   logo: '/logo.png',
   iconfontUrl: '',
