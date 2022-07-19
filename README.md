@@ -1,5 +1,11 @@
 ## Environment Prepare
 
+Copy environment file
+
+```bash
+cp .env.local .env
+```
+
 Install `node_modules`:
 
 ```bash
@@ -40,4 +46,20 @@ npm run lint:fix
 
 ```bash
 npm test
+```
+
+### Run story book
+
+```bash
+npm run storybook
+```
+
+### URLs
+
+```bash
+# View story book
+http://localhost:6006
+
+# visit site
+http://localhost:3001
 ```
