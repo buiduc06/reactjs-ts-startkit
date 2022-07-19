@@ -25,13 +25,13 @@ const GlobalHeaderRight: React.FC = () => {
     <Space className={className}>
       <HeaderSearch
         className={`${styles.action} ${styles.search}`}
-        placeholder="站内搜索"
-        defaultValue="umi ui"
+        placeholder="Site search"
+        defaultValue=""
         options={[
           { label: <a href="https://umijs.org/zh/guide/umi-ui.html">umi ui</a>, value: 'umi ui' },
           {
-            label: <a href="next.ant.design">Ant Design</a>,
-            value: 'Ant Design',
+            label: <a href="next.ant.design">Reactjs Startkit</a>,
+            value: 'Reactjs Startkit',
           },
           {
             label: <a href="https://protable.ant.design/">Pro Table</a>,
